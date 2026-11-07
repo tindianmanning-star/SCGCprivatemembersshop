@@ -1,14 +1,9 @@
-# Scotchman's Creek Golf Club Members Store
+# Scotchmans Creek Golf Club — Members Store login demonstration
 
-Static website package for GitHub Pages.
+Temporary shared access password: `driver`
 
-## Files
-- `index.html` – store homepage and catalogue
-- `assets/custom-logo-golf-ball-yellow.png` – fluorescent yellow custom-logo golf ball product image
-- `assets/custom-logo-golf-balls-box.png` – white custom-logo golf balls presentation-box product image
+## Install
+Upload and replace `index.html` in the root of the existing GitHub repository. Keep all image files in the repository root as supplied in this ZIP.
 
-## Deploy
-Upload `index.html` and the complete `assets` folder to the root of the `main` branch. In GitHub, open Settings → Pages and select Deploy from a branch, `main`, `/(root)`.
-
-## Golf ball listings
-Both custom-logo golf ball listings are shown as **Price on request** pending manufacturer pricing. The white presentation-box quantity is also marked as to be confirmed. These items are enquiry-only and are not added to the demonstration checkout.
+## Security warning
+This is a front-end demonstration gate only. The password is present in public JavaScript source and can be bypassed. GitHub Pages cannot enforce private access. Do not use this to protect confidential information, member records, or live checkout. A production members-only store requires server-side authentication (for example Supabase Auth) and protected data/API routes.
