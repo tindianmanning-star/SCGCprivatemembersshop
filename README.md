@@ -1,9 +1,9 @@
-# Scotchmans Creek Golf Club — Members Store login demonstration
+# Scotchmans Creek Golf Club Members Store — Dozen Golf Balls
 
-Temporary shared access password: `driver`
+Golf balls are listed as two separate dozen products:
+- White Club Logo Golf Balls — Dozen (12 balls)
+- Fluoro Yellow Club Logo Golf Balls — Dozen (12 balls)
 
-## Install
-Upload and replace `index.html` in the root of the existing GitHub repository. Keep all image files in the repository root as supplied in this ZIP.
+The colours are not combined. Product cards identify the dozen unit. Prices remain indicative prototype prices and must be confirmed with the manufacturer.
 
-## Security warning
-This is a front-end demonstration gate only. The password is present in public JavaScript source and can be bypassed. GitHub Pages cannot enforce private access. Do not use this to protect confidential information, member records, or live checkout. A production members-only store requires server-side authentication (for example Supabase Auth) and protected data/API routes.
+The shared password `driver` remains a front-end demonstration gate only. GitHub Pages does not provide secure members-only access. Do not use for confidential member data or live payments.
